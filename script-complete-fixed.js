@@ -630,14 +630,14 @@ let elements = {};
 // ===================================
 document.addEventListener('DOMContentLoaded', function() {
     console.log('🚀 Iniciando GESTION MOON...');
-    
+
     try {
         initializeElements();
         setupEventListeners();
         initializeCarousel();
         initializeTabs();
         setupFormValidation();
-        
+
         console.log('✅ GESTION MOON inicializado correctamente!');
         showToast('¡Bienvenido a GESTION MOON! 🎬', 'success');
     } catch (error) {
